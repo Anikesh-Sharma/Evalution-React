@@ -1,0 +1,105 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 24px;
+  color: #444;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form select,
+form button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.fetch-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  margin: 20px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.job-listing {
+  margin: 20px 0;
+}
+
+.job-listing input,
+.job-listing select {
+  margin: 10px 0;
+}
+
+.job-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-logo img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.job-details {
+  flex: 1;
+}
+
+.job
+
+-tags {
+  margin-top: 10px;
+}
+
+.job-tag {
+  display: inline-block;
+  background-color: #e7f1ff;
+  color: #007bff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
